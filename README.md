@@ -23,6 +23,8 @@ java -jar .\DefendMemoryShell-1.0-SNAPSHOT.jar com.crilwa.SpringdemoApplication 
 
 #### 黑名单
 
+此处黑名单还有待添加......
+
 | 危险类路径                                      | 注释       |
 | ----------------------------------------------- | ---------- |
 | org.apache.catalina.core.ApplicationFilterChain | 常见注入类 |
