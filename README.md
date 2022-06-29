@@ -39,17 +39,17 @@ java -jar .\DefendMemoryShell-1.0-SNAPSHOT.jar com.crilwa.SpringdemoApplication 
 
 先注入常见的javaAgent内存马
 
-![2](D:\blog\github\DefendMemoryShell\images\2.png)
+![2](images/2.png)
 
 然后执行我们的工具进行清除
 
-![3](D:\blog\github\DefendMemoryShell\images\3.png)
+![3](images/3.png)
 
-![4](D:\blog\github\DefendMemoryShell\images\4.png)
+![4](images/4.png)
 
 再次访问页面，无法再执行命令了，清除成功
 
-![5](D:\blog\github\DefendMemoryShell\images\5.png)
+![5](images/5.png)
 
 ## 目前尚未解决的Bug
 
@@ -57,6 +57,6 @@ java -jar .\DefendMemoryShell-1.0-SNAPSHOT.jar com.crilwa.SpringdemoApplication 
 
 Java自带jar包tools.jar路径问题，问题路径`LoadAgent#loadAgent2JVM`
 
-![1](D:\blog\github\DefendMemoryShell\images\1.png)
+![1](images/1.png)
 
 尽管可以动态获取系统变量中tools.jar路径，虽然路径和图中红框一致，但是会无法获取java自带的`VirtualMachine`类，此bug尚待解决。
