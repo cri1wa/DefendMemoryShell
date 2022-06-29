@@ -66,7 +66,7 @@ Java自带jar包tools.jar路径问题，问题路径`LoadAgent#loadAgent2JVM`
 本人是java安全入门学习者，如果有更好的查杀思路，或者是修复工具的BUG，欢迎找俺讨论。
 
 ## 免责声明
-此工具仅仅作为学习交流使用，切勿使用在非法途径上。
+此工具仅仅作为学习交流使用，切勿使用在非法途径上。若使用此工具造成任何损失，与本人无关。
 ## References
 [Agent内存马的自动分析与查杀 - 先知社区 (aliyun.com)](https://xz.aliyun.com/t/10910)
 
