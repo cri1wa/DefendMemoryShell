@@ -3,10 +3,40 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e0645ded-a7e0-4515-8960-a7720ca4ff6c" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_reload4j_reload4j_1_2_18_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_35.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_reload4j_1_7_35.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DefendMemoryShell.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DefendMemoryShell.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/设计文档.md" beforeDir="false" afterPath="$PROJECT_DIR$/设计文档.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +60,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="2Ajy6dG8UMynxIxA1ykxu7RreHx" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="新增" />
   </component>
   <component name="ProjectViewState">
@@ -39,12 +72,34 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java/myCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java/myCode/AgentMemShell" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="util" />
+      <recent name="core" />
+      <recent name="" />
+      <recent name="until" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="DefendMemoryShell" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -56,8 +111,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e0645ded-a7e0-4515-8960-a7720ca4ff6c" name="默认的" comment="" />
@@ -65,21 +128,100 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655537114925</updated>
-      <workItem from="1655537115998" duration="182000" />
+      <workItem from="1655537115998" duration="6282000" />
+      <workItem from="1655892112166" duration="1233000" />
+      <workItem from="1656055107484" duration="40000" />
+      <workItem from="1656335656250" duration="4704000" />
+      <workItem from="1656407294192" duration="17135000" />
+      <workItem from="1656507465328" duration="5154000" />
     </task>
+    <task id="LOCAL-00001" summary="Test idea-push">
+      <created>1655537601641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655537601641</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Test idea-push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test idea-push" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="792" y="352" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1656410846871">
+      <screen x="74" y="0" width="1974" height="1152" />
+    </state>
+    <state x="792" y="352" key="#com.intellij.ide.util.PackageChooserDialog/74.0.1974.1152@74.0.1974.1152" timestamp="1656410846871" />
     <state x="721" y="254" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1655537148313">
       <screen x="74" y="0" width="1974" height="1152" />
     </state>
     <state x="721" y="254" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/74.0.1974.1152@74.0.1974.1152" timestamp="1655537148313" />
-    <state x="842" y="331" key="FileChooserDialogImpl" timestamp="1655537121618">
+    <state x="832" y="439" width="457" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1656410847963">
       <screen x="74" y="0" width="1974" height="1152" />
     </state>
-    <state x="842" y="331" key="FileChooserDialogImpl/74.0.1974.1152@74.0.1974.1152" timestamp="1655537121618" />
+    <state x="832" y="439" width="457" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/74.0.1974.1152@74.0.1974.1152" timestamp="1656410847963" />
+    <state x="542" y="151" key="#项目结构" timestamp="1656503296559">
+      <screen x="74" y="0" width="1974" height="1152" />
+    </state>
+    <state x="542" y="151" key="#项目结构/74.0.1974.1152@74.0.1974.1152" timestamp="1656503296559" />
+    <state x="696" y="141" key="CommitChangelistDialog2" timestamp="1655537600887">
+      <screen x="74" y="0" width="1974" height="1152" />
+    </state>
+    <state x="696" y="141" key="CommitChangelistDialog2/74.0.1974.1152@74.0.1974.1152" timestamp="1655537600887" />
+    <state x="842" y="331" key="FileChooserDialogImpl" timestamp="1656507532884">
+      <screen x="74" y="0" width="1974" height="1152" />
+    </state>
+    <state x="842" y="331" key="FileChooserDialogImpl/74.0.1974.1152@74.0.1974.1152" timestamp="1656507532884" />
+    <state width="1931" height="296" key="GridCell.Tab.0.bottom" timestamp="1656511921799">
+      <screen x="74" y="0" width="1974" height="1152" />
+    </state>
+    <state width="1931" height="296" key="GridCell.Tab.0.bottom/74.0.1974.1152@74.0.1974.1152" timestamp="1656511921799" />
+    <state width="1931" height="296" key="GridCell.Tab.0.center" timestamp="1656511921798">
+      <screen x="74" y="0" width="1974" height="1152" />
+    </state>
+    <state width="1931" height="296" key="GridCell.Tab.0.center/74.0.1974.1152@74.0.1974.1152" timestamp="1656511921798" />
+    <state width="1931" height="296" key="GridCell.Tab.0.left" timestamp="1656511921798">
+      <screen x="74" y="0" width="1974" height="1152" />
+    </state>
+    <state width="1931" height="296" key="GridCell.Tab.0.left/74.0.1974.1152@74.0.1974.1152" timestamp="1656511921798" />
+    <state width="1931" height="296" key="GridCell.Tab.0.right" timestamp="1656511921799">
+      <screen x="74" y="0" width="1974" height="1152" />
+    </state>
+    <state width="1931" height="296" key="GridCell.Tab.0.right/74.0.1974.1152@74.0.1974.1152" timestamp="1656511921799" />
+    <state x="604" y="463" key="Maven.ArtifactSearchDialog" timestamp="1656408474717">
+      <screen x="74" y="0" width="1974" height="1152" />
+    </state>
+    <state x="604" y="463" key="Maven.ArtifactSearchDialog/74.0.1974.1152@74.0.1974.1152" timestamp="1656408474717" />
+    <state x="542" y="151" key="SettingsEditor" timestamp="1656510762073">
+      <screen x="74" y="0" width="1974" height="1152" />
+    </state>
+    <state x="542" y="151" key="SettingsEditor/74.0.1974.1152@74.0.1974.1152" timestamp="1656510762073" />
+    <state x="654" y="309" key="Vcs.Push.Dialog.v2" timestamp="1655537692346">
+      <screen x="74" y="0" width="1974" height="1152" />
+    </state>
+    <state x="654" y="309" key="Vcs.Push.Dialog.v2/74.0.1974.1152@74.0.1974.1152" timestamp="1655537692346" />
+    <state x="597" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1656502281400">
+      <screen x="74" y="0" width="1974" height="1152" />
+    </state>
+    <state x="597" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/74.0.1974.1152@74.0.1974.1152" timestamp="1656502281400" />
   </component>
 </project>
