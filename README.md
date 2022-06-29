@@ -60,8 +60,11 @@ Java自带jar包tools.jar路径问题，问题路径`LoadAgent#loadAgent2JVM`
 ![1](images/1.png)
 
 尽管可以动态获取系统变量中tools.jar路径，虽然路径和图中红框一致，但是会无法获取java自带的`VirtualMachine`类，此bug尚待解决。
+
+本人是java安全入门学习者，如果有更好的查杀思路，或者是修复工具的BUG，欢迎找俺讨论。
+
 ## 免责声明
-此工具仅仅作为学习交流使用，切勿使用再非法途径上
+此工具仅仅作为学习交流使用，切勿使用在非法途径上。
 ## References
 [Agent内存马的自动分析与查杀 - 先知社区 (aliyun.com)](https://xz.aliyun.com/t/10910)
 
