@@ -1,0 +1,6 @@
+core\KillMemShell$DefineTransformer.class
+Main.class
+core\LoadAgent.class
+core\WhiteListClass.class
+core\BlackListClass.class
+core\KillMemShell.class
