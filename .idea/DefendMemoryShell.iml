@@ -18,18 +18,18 @@
     <orderEntry type="library" name="Maven: ch.qos.reload4j:reload4j:1.2.18.3" level="project" />
     <orderEntry type="library" name="Maven: javassist:javassist:3.12.0.GA" level="project" />
     <orderEntry type="module-library">
-      <library name="Maven: sun.jvm.hotspot:sa-jdi:11.0.8">
+      <library name="Maven: com.sun.tools:tools:1.8.0_202">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/resources/lib/sa-jdi.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="Maven: com.sun.tools:tools:11.0.8">
+      <library name="Maven: com.sun:tools:1.0-SNAPSHOT">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/resources/lib/tools.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

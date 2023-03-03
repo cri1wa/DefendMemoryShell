@@ -8,6 +8,8 @@ import java.util.Properties;
 import com.sun.tools.attach.AgentInitializationException;
 import com.sun.tools.attach.AgentLoadException;
 import com.sun.tools.attach.VirtualMachine;
+import com.sun.tools.attach.VirtualMachineDescriptor;
+
 public class LoadAgent {
     String targetName;
     String path;
@@ -18,23 +20,9 @@ public class LoadAgent {
 
     public void loadAgent2JVM(){
         try{
-            String tools_path;
-            String os = System.getProperty("os.name").toLowerCase();
-            if(os.contains("win")){
-                tools_path = System.getProperty("java.home").replace("jre", "lib") + "\\"  + "tools.jar";
-                //tools_path = tools_path.replace("\\","\\\\");
-            }else{
-                tools_path = System.getProperty("java.home").replace("jre", "lib") + File.separator + "tools.jar";
-            }
-            String tp = "C:\\Program Files\\Java\\jdk1.8.0_202\\lib\\tools.jar";
-            java.io.File toolsPath = new java.io.File(tp);
-            java.net.URL url = toolsPath.toURI().toURL();
-            java.net.URLClassLoader classLoader = new java.net.URLClassLoader(new java.net.URL[]{url});
-            Class/*<?>*/ MyVirtualMachine = classLoader.loadClass("com.sun.tools.attach.VirtualMachine");
-            Class/*<?>*/ MyVirtualMachineDescriptor = classLoader.loadClass("com.sun.tools.attach.VirtualMachineDescriptor");
-            java.lang.reflect.Method listMethod = MyVirtualMachine.getDeclaredMethod("list", null);
-            java.util.List/*<Object>*/ list = (java.util.List/*<Object>*/) listMethod.invoke(MyVirtualMachine, null);
-
+            Class/*<?>*/ MyVirtualMachine = VirtualMachine.class.getClass();
+            Class/*<?>*/ MyVirtualMachineDescriptor = VirtualMachineDescriptor.class.getClass();
+            List<VirtualMachineDescriptor> list = VirtualMachine.list();
             System.out.println("Running JVM list ...");
             for (int i = 0; i < list.size(); i++) {
                 Object o = list.get(i);

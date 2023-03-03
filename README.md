@@ -51,18 +51,6 @@ java -jar .\DefendMemoryShell-1.0-SNAPSHOT.jar com.crilwa.SpringdemoApplication 
 
 ![5](images/5.png)
 
-## 目前尚未解决的Bug
-
-### tools.jar路径问题（尚未解决）
-
-**使用工具前，请先将下图红框中路径换为自己的路径再打包。**
-
-Java自带jar包tools.jar路径问题，问题路径`LoadAgent#loadAgent2JVM`
-
-![1](images/1.png)
-
-尽管可以动态获取系统变量中tools.jar路径，虽然路径和图中红框一致，但是会无法获取java自带的`VirtualMachine`类，此bug尚待解决。
-
 ## 免责声明
 
 该工具仅仅作为学习交流使用，使用该工具造成的一切损失自行负责。

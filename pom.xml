@@ -35,6 +35,13 @@
             <scope>system</scope>
             <systemPath>${basedir}/src/main/resources/lib/tools.jar</systemPath>
         </dependency>
+		<dependency>
+            <groupId>com.sun</groupId>
+            <artifactId>tools</artifactId>
+            <scope>system</scope>
+            <version>${version}</version>
+            <systemPath>${project.basedir}/lib/tools.jar</systemPath>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
